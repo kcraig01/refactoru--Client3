@@ -2,7 +2,7 @@
 
 var phoneNum = prompt("Please enter your phone number with dashes. "+
 	" Please note: Your number will not be shared with any third parties." , "xxx-xxx-xxxx");
-alert (phoneNum.charAt(3)==='-'&& phoneNum.charAt(7)==='-');
+alert (phoneNum.charAt(3)==='-'&& phoneNum.charAt(7)==='-'&& typeof(phoneNum)==="number");
 
 var birthdate = prompt("Please enter your birth date in the format mm/dd/yy", "mm/dd/yy");
 alert (birthdate.charAt(2)==='/'&& birthdate.charAt(5)==='/');
